@@ -30,7 +30,6 @@ def download_images(query, total_count=100, folder="food photos"):
         })
         results = search.get_dict()
         images = results.get("images_results", [])
-        
         for img in images:
             if img_num >= total_count:
                 break
@@ -45,4 +44,4 @@ def download_images(query, total_count=100, folder="food photos"):
                 print(f"❌ Skipped broken image ({url}):", e)
 
 # مثال: 100 صورة كشري
-download_images("فول مدمس مصري", total_count=100, folder="Fool")
+download_images("الكشري المصري", total_count=100, folder="Koshari")
