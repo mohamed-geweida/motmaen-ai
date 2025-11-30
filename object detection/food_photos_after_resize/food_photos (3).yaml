@@ -1,0 +1,8 @@
+path: /kaggle/input/food-update-2
+train: train
+val: valid
+test: test
+
+nc: 9
+names: ['Fattah','Fool','Hawawshy','Koshari','Kunafa',
+'Mahshy El Kosa','Ptata','Taameya','Umm Ali']
