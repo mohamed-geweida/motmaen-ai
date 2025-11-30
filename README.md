@@ -14,6 +14,8 @@ This repository contains:
 * The **entire training pipeline** (EDA, preprocessing, augmentation, training notebooks)
 * The **final Keras model** and **TensorFlow Lite model** for deployment
 * Scripts for exporting, predicting, and future API usage
+* [Our Presentation](https://www.canva.com/design/DAG2iOg2Aig/3zS1O5Iuy0ErtlQO9XhvDA/edit?utm_content=DAG2iOg2Aig&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+* [Demo Video](https://drive.google.com/file/d/1wItbhkH81M8Mwk08QXbhkX_xCFkQmEi_/view?usp=sharing)
 
 ---
 
