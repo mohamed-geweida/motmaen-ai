@@ -121,6 +121,7 @@ pip install tensorflow matplotlib numpy pillow
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+from tensorflow.keras.applications.densenet import preprocess_input
 
 interpreter = tf.lite.Interpreter(model_path="Models/final_model.tflite")
 interpreter.allocate_tensors()
@@ -134,7 +135,8 @@ output_details = interpreter.get_output_details()
 
 ```python
 img = Image.open("test_image.jpg").resize((224,224))
-img = np.array(img, dtype=np.float32) / 255.0
+img = np.array(img, dtype=np.float32)
+img = preprocess_input(img_array)
 img = np.expand_dims(img, 0)
 
 interpreter.set_tensor(input_details[0]['index'], img)
