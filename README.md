@@ -82,6 +82,9 @@ The exported `.tflite` file is optimized for:
 * Real-time inference
 * Low latency (<30ms on mid-range phones)
 
+The final Yolo is based on:
+* **Use Yolox
+* Trained on 100 epochs, 32 batch size and 416*416 images
 ---
 
 # 📊 Training Pipeline
@@ -103,8 +106,11 @@ Key steps:
 
 Accuracy achieved:
 
-> ⭐ **~92% Top-1 Accuracy** on the final validation set.
-
+> ⭐ **~92% Top-1 Accuracy** on the final transfer learning validation set.
+> ⭐On YOLO Model
+> Precision (P): 0.901
+> Recall (R): 0.887
+> mAP50: 0.933 (Mean Average Precision at 50% IoU)
 ---
 
 # 📦 How to Use
@@ -175,6 +181,9 @@ This repo provides the **vision foundation**: a reliable, optimized, deployable 
 * Add ONNX export
 * Model pruning for ultra-low-power devices
 
+---
+Yolo deployment
+[Yolo]([https://www.github/mohamed-geweida/](https://huggingface.co/spaces/eman123Yasser/Yolo_Motmaen))
 ---
 
 # 🙌 Contributors
