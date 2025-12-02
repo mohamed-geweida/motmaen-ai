@@ -185,7 +185,7 @@ This repo provides the **vision foundation**: a reliable, optimized, deployable 
 ---
 Yolo deployment
 
-[Yolo](https://www.github/mohamed-geweida/](https://huggingface.co/spaces/eman123Yasser/Yolo_Motmaen)
+[Yolo](https://huggingface.co/spaces/eman123Yasser/Yolo_Motmaen)
 ---
 
 # 🙌 Contributors
